@@ -3907,6 +3907,18 @@ PrefabInstance:
       value: Ball
       objectReference: {fileID: 0}
     - target: {fileID: 5599830857172574808, guid: c69125037eb00664280f489f6c7631f0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 5599830857172574808, guid: c69125037eb00664280f489f6c7631f0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 5599830857172574808, guid: c69125037eb00664280f489f6c7631f0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 5599830857172574808, guid: c69125037eb00664280f489f6c7631f0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -3986,7 +3998,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: b04226648703be14d985e96261de2bbd, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 1
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -4055,7 +4067,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  jumpForce: 10
+  jumpForce: 9
 --- !u!1001 &2014715288
 PrefabInstance:
   m_ObjectHideFlags: 0
