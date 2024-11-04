@@ -1,0 +1,60 @@
+# Этот .gitignore файл должен быть размещён в корневой директории вашего Unity проекта
+
+# === Сгенерированные Unity папки ===
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# === Игнорирование только временных файлов внутри папок ===
+# Остальные файлы и папки внутри Assets и ProjectSettings будут отслеживаться
+# Следующие строки НЕ должны быть включены в .gitignore:
+# !/[Aa]ssets/
+# !/[Pp]roject[Ss]ettings/
+
+# === Не игнорировать мета-файлы и папку ProjectSettings ===
+# Удалите или закомментируйте следующие строки, если они присутствуют
+# /Assets/**/*.meta
+# /ProjectSettings/
+
+# === Visual Studio / MonoDevelop специфичные файлы ===
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# === OS специфичные файлы ===
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+
+# === Rider специфичные файлы ===
+.idea/
+*.sln.iml
+
+# === Временные и лог файлы ===
+*.tmp
+*.bak
+*.swp
+*~
+*.log
+
+# === Файлы отчётов о сбоях ===
+sysinfo.txt
+
+# === Настройки рабочей области Visual Studio Code ===
+.vscode/
+
+# === Игнорирование .env файлов (если используются) ===
+.env
