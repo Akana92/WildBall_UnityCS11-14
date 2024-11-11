@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "D:\\Unity\\Projects\\11th(old)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\11th(old)\\assets\\scripts\\ballcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ballcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|d:\\unity\\projects\\11th(old)\\assets\\scripts\\doorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\doorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|d:\\unity\\projects\\11th(old)\\assets\\scripts\\ballcontroller2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ballcontroller2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|d:\\unity\\projects\\11th(old)\\assets\\scripts\\buttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\11th(old)\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\11th(old)\\assets\\scripts\\levelexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\11th(old)\\assets\\scripts\\trap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\11th(old)\\assets\\scripts\\pausecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\11th(old)\\assets\\scripts\\gem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\11th(old)\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\11th(old)\\assets\\scripts\\ballcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ballcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\11th(old)\\assets\\scripts\\animationrandomizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,16 +47,8 @@
       "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\delayedanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\11th(old)\\assets\\scripts\\pausecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\11th(old)\\assets\\scripts\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\Projects\\11th(old)\\Library\\PackageCache\\com.unity.collab-proxy@2.5.2\\Editor\\PlasticSCM\\Configuration\\CloudEdition\\Welcome\\AutoLogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.collab-proxy@2.5.2\\Editor\\PlasticSCM\\Configuration\\CloudEdition\\Welcome\\AutoLogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,73 +58,145 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BallController2.cs",
-              "DocumentMoniker": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\BallController2.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BallController2.cs",
-              "ToolTip": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\BallController2.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BallController2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "DoorController.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\DoorController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DoorController.cs",
+              "ToolTip": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\DoorController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DoorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T06:03:18.797Z",
+              "WhenOpened": "2024-11-11T16:56:59.847Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "ButtonController.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\ButtonController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonController.cs",
+              "ToolTip": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\ButtonController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ButtonController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T12:28:40.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LevelExit.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\LevelExit.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelExit.cs",
+              "ToolTip": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\LevelExit.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelExit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T06:21:57.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Gem.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\Gem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Gem.cs",
+              "ToolTip": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\Gem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Gem.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T11:43:03.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAAwI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T11:13:41.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Trap.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\Trap.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Trap.cs",
+              "ToolTip": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\Trap.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Trap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T11:07:17.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\CameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraController.cs",
+              "ToolTip": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\CameraController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvxcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T10:28:43.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "BallController.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\BallController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BallController.cs",
               "ToolTip": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\BallController.cs",
               "RelativeToolTip": "Assets\\Scripts\\BallController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwDgAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAkwHYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T16:51:21.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T16:51:21.618Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "AnimationRandomizer.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\AnimationRandomizer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AnimationRandomizer.cs",
               "ToolTip": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\AnimationRandomizer.cs",
               "RelativeToolTip": "Assets\\Scripts\\AnimationRandomizer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAswCkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-31T07:42:56.283Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "DelayedAnimation.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\DelayedAnimation.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DelayedAnimation.cs",
               "ToolTip": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\DelayedAnimation.cs",
               "RelativeToolTip": "Assets\\Scripts\\DelayedAnimation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAswBUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T11:30:06.865Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PauseController.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\PauseController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PauseController.cs",
               "ToolTip": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\PauseController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PauseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAcwDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T10:44:04.567Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "MainMenuController.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\MainMenuController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenuController.cs",
@@ -113,18 +205,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T09:44:02.275Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AutoLogin.cs",
-              "DocumentMoniker": "D:\\Unity\\Projects\\11th(old)\\Library\\PackageCache\\com.unity.collab-proxy@2.5.2\\Editor\\PlasticSCM\\Configuration\\CloudEdition\\Welcome\\AutoLogin.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.collab-proxy@2.5.2\\Editor\\PlasticSCM\\Configuration\\CloudEdition\\Welcome\\AutoLogin.cs",
-              "ToolTip": "D:\\Unity\\Projects\\11th(old)\\Library\\PackageCache\\com.unity.collab-proxy@2.5.2\\Editor\\PlasticSCM\\Configuration\\CloudEdition\\Welcome\\AutoLogin.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.collab-proxy@2.5.2\\Editor\\PlasticSCM\\Configuration\\CloudEdition\\Welcome\\AutoLogin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T06:48:15.632Z"
             }
           ]
         }

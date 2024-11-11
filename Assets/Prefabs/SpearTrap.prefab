@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 411639461144378844}
   - component: {fileID: 5204745633801224761}
   - component: {fileID: 5463482706555544935}
+  - component: {fileID: 1477260915882629171}
   m_Layer: 0
   m_Name: ClubSpear1Anim
   m_TagString: Untagged
@@ -100,11 +101,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6619212166008880561, guid: edcc86a903182d0429c0d7b2c727fec0, type: 3}
 --- !u!111 &5463482706555544935
@@ -123,6 +124,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &1477260915882629171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 277628628446411773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e377851bf5a16814cb5065c20d3b2771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &516919947103248802
 GameObject:
   m_ObjectHideFlags: 0
@@ -168,6 +181,7 @@ GameObject:
   - component: {fileID: 81867174715100431}
   - component: {fileID: 5525440352298693354}
   - component: {fileID: 3762282769085115680}
+  - component: {fileID: 1031149519367722581}
   m_Layer: 0
   m_Name: ClubSpear1Anim
   m_TagString: Untagged
@@ -255,11 +269,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6619212166008880561, guid: edcc86a903182d0429c0d7b2c727fec0, type: 3}
 --- !u!111 &3762282769085115680
@@ -278,6 +292,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &1031149519367722581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526608817935698734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e377851bf5a16814cb5065c20d3b2771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &559280261533582780
 GameObject:
   m_ObjectHideFlags: 0
@@ -291,6 +317,7 @@ GameObject:
   - component: {fileID: 121258831166899101}
   - component: {fileID: 5486047596401327224}
   - component: {fileID: 4472012787919369529}
+  - component: {fileID: 2163581172541616374}
   m_Layer: 0
   m_Name: ClubSpear1Anim
   m_TagString: Untagged
@@ -378,11 +405,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6619212166008880561, guid: edcc86a903182d0429c0d7b2c727fec0, type: 3}
 --- !u!111 &4472012787919369529
@@ -401,6 +428,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &2163581172541616374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559280261533582780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e377851bf5a16814cb5065c20d3b2771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &630675079276601160
 GameObject:
   m_ObjectHideFlags: 0
@@ -414,6 +453,7 @@ GameObject:
   - component: {fileID: 1057397619488512361}
   - component: {fileID: 4836926417604388492}
   - component: {fileID: 5407727674621249612}
+  - component: {fileID: 5122235896002501019}
   m_Layer: 0
   m_Name: ClubSpear1Anim
   m_TagString: Untagged
@@ -501,11 +541,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6619212166008880561, guid: edcc86a903182d0429c0d7b2c727fec0, type: 3}
 --- !u!111 &5407727674621249612
@@ -524,6 +564,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &5122235896002501019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630675079276601160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e377851bf5a16814cb5065c20d3b2771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &723732392475991061
 GameObject:
   m_ObjectHideFlags: 0
@@ -537,6 +589,7 @@ GameObject:
   - component: {fileID: 893697251140196916}
   - component: {fileID: 4750061281195828689}
   - component: {fileID: 2134166789959127117}
+  - component: {fileID: 51490167059098409}
   m_Layer: 0
   m_Name: ClubSpear1Anim
   m_TagString: Untagged
@@ -624,11 +677,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6619212166008880561, guid: edcc86a903182d0429c0d7b2c727fec0, type: 3}
 --- !u!111 &2134166789959127117
@@ -647,6 +700,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &51490167059098409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723732392475991061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e377851bf5a16814cb5065c20d3b2771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &763313887626496485
 GameObject:
   m_ObjectHideFlags: 0
@@ -894,6 +959,7 @@ GameObject:
   - component: {fileID: 1853075424032134893}
   - component: {fileID: 6069696972942928136}
   - component: {fileID: 8583228662734169293}
+  - component: {fileID: 5466157279237279151}
   m_Layer: 0
   m_Name: ClubSpear1Anim
   m_TagString: Untagged
@@ -981,11 +1047,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6619212166008880561, guid: edcc86a903182d0429c0d7b2c727fec0, type: 3}
 --- !u!111 &8583228662734169293
@@ -1004,6 +1070,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &5466157279237279151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2295508060623130828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e377851bf5a16814cb5065c20d3b2771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2377024837155786299
 GameObject:
   m_ObjectHideFlags: 0
@@ -1049,6 +1127,7 @@ GameObject:
   - component: {fileID: 2512748608888401739}
   - component: {fileID: 8021901530746687662}
   - component: {fileID: 3226327843675495286}
+  - component: {fileID: 7123779019097286273}
   m_Layer: 0
   m_Name: ClubSpear1Anim
   m_TagString: Untagged
@@ -1136,11 +1215,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6619212166008880561, guid: edcc86a903182d0429c0d7b2c727fec0, type: 3}
 --- !u!111 &3226327843675495286
@@ -1159,6 +1238,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &7123779019097286273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2644503203460917610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e377851bf5a16814cb5065c20d3b2771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2781329529951707013
 GameObject:
   m_ObjectHideFlags: 0
@@ -1306,6 +1397,7 @@ GameObject:
   - component: {fileID: 3755025843897350976}
   - component: {fileID: 8759535804123858085}
   - component: {fileID: 1865892733567352938}
+  - component: {fileID: 5554448834053412257}
   m_Layer: 0
   m_Name: ClubSpear1Anim
   m_TagString: Untagged
@@ -1393,11 +1485,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6619212166008880561, guid: edcc86a903182d0429c0d7b2c727fec0, type: 3}
 --- !u!111 &1865892733567352938
@@ -1416,6 +1508,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &5554448834053412257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3634600822155017569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e377851bf5a16814cb5065c20d3b2771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3794091888584737375
 GameObject:
   m_ObjectHideFlags: 0
@@ -1429,6 +1533,7 @@ GameObject:
   - component: {fileID: 3660133834089104510}
   - component: {fileID: 9171579744476658587}
   - component: {fileID: 1647477213458690903}
+  - component: {fileID: 3700434487893001432}
   m_Layer: 0
   m_Name: ClubSpear1Anim
   m_TagString: Untagged
@@ -1516,11 +1621,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6619212166008880561, guid: edcc86a903182d0429c0d7b2c727fec0, type: 3}
 --- !u!111 &1647477213458690903
@@ -1539,6 +1644,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &3700434487893001432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3794091888584737375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e377851bf5a16814cb5065c20d3b2771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3822817662966532965
 GameObject:
   m_ObjectHideFlags: 0
@@ -1552,6 +1669,7 @@ GameObject:
   - component: {fileID: 3702339625255718212}
   - component: {fileID: 9146192087397413537}
   - component: {fileID: 5216724652321978515}
+  - component: {fileID: 2664776436950565565}
   m_Layer: 0
   m_Name: ClubSpear1Anim
   m_TagString: Untagged
@@ -1639,11 +1757,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6619212166008880561, guid: edcc86a903182d0429c0d7b2c727fec0, type: 3}
 --- !u!111 &5216724652321978515
@@ -1662,6 +1780,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &2664776436950565565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3822817662966532965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e377851bf5a16814cb5065c20d3b2771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4052541438872667731
 GameObject:
   m_ObjectHideFlags: 0
@@ -1675,6 +1805,7 @@ GameObject:
   - component: {fileID: 4490580152723669106}
   - component: {fileID: 8348875051914002327}
   - component: {fileID: 5941912841066661227}
+  - component: {fileID: 1350651777013699752}
   m_Layer: 0
   m_Name: ClubSpear1Anim
   m_TagString: Untagged
@@ -1762,11 +1893,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6619212166008880561, guid: edcc86a903182d0429c0d7b2c727fec0, type: 3}
 --- !u!111 &5941912841066661227
@@ -1785,6 +1916,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &1350651777013699752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4052541438872667731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e377851bf5a16814cb5065c20d3b2771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4087662845806592569
 GameObject:
   m_ObjectHideFlags: 0
@@ -1868,6 +2011,7 @@ GameObject:
   - component: {fileID: 4320261404901866696}
   - component: {fileID: 8536627660736332589}
   - component: {fileID: 3114018848474624188}
+  - component: {fileID: 2551011873070231797}
   m_Layer: 0
   m_Name: ClubSpear1Anim
   m_TagString: Untagged
@@ -1955,11 +2099,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6619212166008880561, guid: edcc86a903182d0429c0d7b2c727fec0, type: 3}
 --- !u!111 &3114018848474624188
@@ -1978,6 +2122,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &2551011873070231797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4438470018972039913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e377851bf5a16814cb5065c20d3b2771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5418783461542397460
 GameObject:
   m_ObjectHideFlags: 0
@@ -2023,6 +2179,7 @@ GameObject:
   - component: {fileID: 6235436322373597093}
   - component: {fileID: 1946732852994541632}
   - component: {fileID: 1027042939293666410}
+  - component: {fileID: 2181614817674796673}
   m_Layer: 0
   m_Name: ClubSpear1Anim
   m_TagString: Untagged
@@ -2110,11 +2267,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6619212166008880561, guid: edcc86a903182d0429c0d7b2c727fec0, type: 3}
 --- !u!111 &1027042939293666410
@@ -2133,6 +2290,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &2181614817674796673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5828927169063596420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e377851bf5a16814cb5065c20d3b2771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5873214261018040229
 GameObject:
   m_ObjectHideFlags: 0
@@ -2178,6 +2347,7 @@ GameObject:
   - component: {fileID: 5963086800277135493}
   - component: {fileID: 2255657598787329888}
   - component: {fileID: 1967574472904689985}
+  - component: {fileID: 1975581648553545245}
   m_Layer: 0
   m_Name: ClubSpear1Anim
   m_TagString: Untagged
@@ -2265,11 +2435,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6619212166008880561, guid: edcc86a903182d0429c0d7b2c727fec0, type: 3}
 --- !u!111 &1967574472904689985
@@ -2288,6 +2458,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &1975581648553545245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6101561610958743204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e377851bf5a16814cb5065c20d3b2771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6263777263157717186
 GameObject:
   m_ObjectHideFlags: 0
@@ -2301,6 +2483,7 @@ GameObject:
   - component: {fileID: 5801008054063525603}
   - component: {fileID: 2093546470926258438}
   - component: {fileID: 6351912274126750179}
+  - component: {fileID: 4478756177603861289}
   m_Layer: 0
   m_Name: ClubSpear1Anim
   m_TagString: Untagged
@@ -2388,11 +2571,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6619212166008880561, guid: edcc86a903182d0429c0d7b2c727fec0, type: 3}
 --- !u!111 &6351912274126750179
@@ -2411,6 +2594,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &4478756177603861289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6263777263157717186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e377851bf5a16814cb5065c20d3b2771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6305473295692135721
 GameObject:
   m_ObjectHideFlags: 0
@@ -2488,6 +2683,7 @@ GameObject:
   - component: {fileID: 6481160787193814193}
   - component: {fileID: 1476373769337906004}
   - component: {fileID: 1557369800829986303}
+  - component: {fileID: 8928145300292390168}
   m_Layer: 0
   m_Name: ClubSpear1Anim
   m_TagString: Untagged
@@ -2575,11 +2771,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6619212166008880561, guid: edcc86a903182d0429c0d7b2c727fec0, type: 3}
 --- !u!111 &1557369800829986303
@@ -2598,6 +2794,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &8928145300292390168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6889820549848832656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e377851bf5a16814cb5065c20d3b2771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7020344059937721177
 GameObject:
   m_ObjectHideFlags: 0
@@ -2710,6 +2918,7 @@ GameObject:
   - component: {fileID: 7062479338890969492}
   - component: {fileID: 3426782954911055473}
   - component: {fileID: 988823150926676601}
+  - component: {fileID: 5024772608021083125}
   m_Layer: 0
   m_Name: ClubSpear1Anim
   m_TagString: Untagged
@@ -2797,11 +3006,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6619212166008880561, guid: edcc86a903182d0429c0d7b2c727fec0, type: 3}
 --- !u!111 &988823150926676601
@@ -2820,6 +3029,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &5024772608021083125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7236947767152347061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e377851bf5a16814cb5065c20d3b2771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7489141874403907369
 GameObject:
   m_ObjectHideFlags: 0
@@ -2865,6 +3086,7 @@ GameObject:
   - component: {fileID: 7895798616244291284}
   - component: {fileID: 2314591250708494641}
   - component: {fileID: 1754830322639040890}
+  - component: {fileID: 2320890185126356707}
   m_Layer: 0
   m_Name: ClubSpear1Anim
   m_TagString: Untagged
@@ -2952,11 +3174,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6619212166008880561, guid: edcc86a903182d0429c0d7b2c727fec0, type: 3}
 --- !u!111 &1754830322639040890
@@ -2975,6 +3197,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &2320890185126356707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7782142284183552245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e377851bf5a16814cb5065c20d3b2771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8080678803157533718
 GameObject:
   m_ObjectHideFlags: 0
@@ -2988,6 +3222,7 @@ GameObject:
   - component: {fileID: 8523181738195026487}
   - component: {fileID: 4306844054655729106}
   - component: {fileID: 6279989995969021857}
+  - component: {fileID: 5997502234278868125}
   m_Layer: 0
   m_Name: ClubSpear1Anim
   m_TagString: Untagged
@@ -3075,11 +3310,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6619212166008880561, guid: edcc86a903182d0429c0d7b2c727fec0, type: 3}
 --- !u!111 &6279989995969021857
@@ -3098,6 +3333,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &5997502234278868125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8080678803157533718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e377851bf5a16814cb5065c20d3b2771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8092274625488899017
 GameObject:
   m_ObjectHideFlags: 0
@@ -3111,6 +3358,7 @@ GameObject:
   - component: {fileID: 8512281348644376040}
   - component: {fileID: 4300134666043027981}
   - component: {fileID: 7146738638097774433}
+  - component: {fileID: 2853459439667915299}
   m_Layer: 0
   m_Name: ClubSpear1Anim
   m_TagString: Untagged
@@ -3198,11 +3446,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6619212166008880561, guid: edcc86a903182d0429c0d7b2c727fec0, type: 3}
 --- !u!111 &7146738638097774433
@@ -3221,6 +3469,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &2853459439667915299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8092274625488899017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e377851bf5a16814cb5065c20d3b2771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8279113642367226301
 GameObject:
   m_ObjectHideFlags: 0
@@ -3336,6 +3596,7 @@ GameObject:
   - component: {fileID: 8191773964332999365}
   - component: {fileID: 4333466143771286816}
   - component: {fileID: 5839114748192870802}
+  - component: {fileID: 1061014353789361836}
   m_Layer: 0
   m_Name: ClubSpear1Anim
   m_TagString: Untagged
@@ -3423,11 +3684,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6619212166008880561, guid: edcc86a903182d0429c0d7b2c727fec0, type: 3}
 --- !u!111 &5839114748192870802
@@ -3446,6 +3707,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &1061014353789361836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8629808553975178468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e377851bf5a16814cb5065c20d3b2771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8725429102809579745
 GameObject:
   m_ObjectHideFlags: 0
