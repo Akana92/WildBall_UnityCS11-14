@@ -1882,7 +1882,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4304187338315265562, guid: b616c3a14fb53bf48abdd5864ec59329, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5019719695753162238, guid: b616c3a14fb53bf48abdd5864ec59329, type: 3}
       propertyPath: m_Camera
@@ -6801,6 +6801,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4708989492880356691, guid: 888f68dd5a0634d47a68de05f81be50f, type: 3}
+      propertyPath: m_Interpolate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4708989492880356691, guid: 888f68dd5a0634d47a68de05f81be50f, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6240959260738417740, guid: 888f68dd5a0634d47a68de05f81be50f, type: 3}
+      propertyPath: cameraTransform
+      value: 
+      objectReference: {fileID: 563992951}
     - target: {fileID: 7988962818290967867, guid: 888f68dd5a0634d47a68de05f81be50f, type: 3}
       propertyPath: m_Name
       value: BallRoot

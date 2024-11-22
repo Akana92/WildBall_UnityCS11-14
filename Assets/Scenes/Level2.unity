@@ -1906,6 +1906,9 @@ MonoBehaviour:
   zoomSpeed: 22
   minZoom: 5
   maxZoom: 15
+  obstructionMask:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!4 &566949819 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8378305016021551963, guid: e7a79a14190d3d34f93236ba7164d734, type: 3}

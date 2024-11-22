@@ -96,6 +96,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone5
       objectReference: {fileID: 0}
+    - target: {fileID: 7919872567189343190, guid: f394a5fdb2d205349b4101dd79bf0c8d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -110,6 +114,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 7127105493316233757}
   m_SourcePrefab: {fileID: 100100000, guid: f394a5fdb2d205349b4101dd79bf0c8d, type: 3}
+--- !u!198 &1546207166256928026 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 2640050897146513204, guid: f394a5fdb2d205349b4101dd79bf0c8d, type: 3}
+  m_PrefabInstance: {fileID: 3591167103089431086}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5912970417912081056 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7194909630747392142, guid: f394a5fdb2d205349b4101dd79bf0c8d, type: 3}
@@ -174,3 +183,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35cc3673c0b47024eb0a01142b25eddd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupEffect: {fileID: 1546207166256928026}
+  pickupSound: {fileID: 0}

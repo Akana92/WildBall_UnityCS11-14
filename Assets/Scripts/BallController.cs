@@ -19,8 +19,12 @@ public class BallController : MonoBehaviour
     // Ссылка на объект для вращения
     public Transform ballRotation;
 
-    // Новая переменная для хранения ссылки на камеру
+    // Ссылка на камеру
     public Transform cameraTransform;
+
+    // Новые переменные для смерти
+    public ParticleSystem deathEffect; // Система частиц смерти
+    private bool isDead = false; // Флаг смерти
 
     void Start()
     {
@@ -48,10 +52,23 @@ public class BallController : MonoBehaviour
         {
             cameraTransform = Camera.main.transform;
         }
+
+        // Отключаем систему частиц смерти при старте
+        if (deathEffect != null)
+        {
+            deathEffect.gameObject.SetActive(false);
+        }
+        else
+        {
+            Debug.LogWarning("Система частиц смерти не назначена в инспекторе.");
+        }
     }
 
     void Update()
     {
+        if (isDead)
+            return;
+
         // Получаем ввод от пользователя
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
@@ -69,6 +86,9 @@ public class BallController : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (isDead)
+            return;
+
         // Движение шарика с учётом ориентации камеры
         Vector3 movement = Vector3.zero;
 
@@ -89,12 +109,13 @@ public class BallController : MonoBehaviour
 
         // Вращение объекта ballRotation
         RotateVisualBall(movement);
-
-        Debug.Log("Скорость шарика: " + rb.velocity.magnitude);
     }
 
     void LateUpdate()
     {
+        if (isDead)
+            return;
+
         if (isJumpingAnimation)
         {
             // Фиксируем вращение `BallVisual` полностью
@@ -129,6 +150,9 @@ public class BallController : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
+        if (isDead)
+            return;
+
         // Проверяем, что шарик соприкоснулся с землёй
         if (collision.contacts.Length > 0)
         {
@@ -140,5 +164,36 @@ public class BallController : MonoBehaviour
                 isJumpingAnimation = false;
             }
         }
+    }
+
+    // Новый метод для обработки смерти игрока
+    public void Die()
+    {
+        if (isDead)
+            return;
+
+        isDead = true;
+
+        // Отключаем визуализацию игрока
+        ballVisual.gameObject.SetActive(false);
+        ballRotation.gameObject.SetActive(false);
+
+        // Останавливаем движение
+        rb.velocity = Vector3.zero;
+        rb.isKinematic = true;
+
+        // Воспроизводим эффект смерти
+        if (deathEffect != null)
+        {
+            deathEffect.gameObject.SetActive(true);
+            deathEffect.Play();
+        }
+        else
+        {
+            Debug.LogWarning("Система частиц смерти не назначена.");
+        }
+
+        // Вызываем метод GameOver через GameManager
+        GameManager.instance.GameOver();
     }
 }

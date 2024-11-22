@@ -41,7 +41,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5891430114431117856}
-  - component: {fileID: 279388305166003029}
+  - component: {fileID: 1843282441463242996}
   m_Layer: 0
   m_Name: SpinningTrapAnim
   m_TagString: Untagged
@@ -66,27 +66,22 @@ Transform:
   - {fileID: 1909165065774518374}
   m_Father: {fileID: 4348396237794679523}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &279388305166003029
-Animator:
-  serializedVersion: 5
+--- !u!111 &1843282441463242996
+Animation:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1486271801384778787}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d8308749e9f8eb0429d6b7b205347148, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 1055b16481a4901458c3c8add7b5e924, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 1055b16481a4901458c3c8add7b5e924, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &3209840061598243205
 GameObject:
   m_ObjectHideFlags: 0

@@ -72,9 +72,9 @@ public class GameManager : MonoBehaviour
     // Метод вызывается при проигрыше
     public void GameOver()
     {
-        // Останавливаем время
-        Time.timeScale = 0f;
-        isPaused = true;
+        //// Останавливаем время
+        //Time.timeScale = 0f;
+        //isPaused = true;
 
         // Показываем панель "Вы проиграли"
         if (gameOverPanel != null)

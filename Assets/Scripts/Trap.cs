@@ -6,8 +6,13 @@ public class Trap : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            // Вызываем метод проигрыша игры
-            GameManager.instance.GameOver();
+            // Получаем ссылку на скрипт BallController
+            BallController playerController = other.GetComponent<BallController>();
+            if (playerController != null)
+            {
+                // Вызываем метод Die() у игрока
+                playerController.Die();
+            }
         }
     }
 }

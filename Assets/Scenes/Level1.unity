@@ -466,6 +466,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 935806930815462672, guid: 7a937ee5bc40ba142a195e3a41fa7258, type: 3}
   m_PrefabInstance: {fileID: 2041339967}
   m_PrefabAsset: {fileID: 0}
+--- !u!198 &163734831 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 1546207166256928026, guid: 38e40edf2ae5db6429cd0f842a0f8c5b, type: 3}
+  m_PrefabInstance: {fileID: 2574035395373285431}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &167749621 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6220542905242934257, guid: cbdeafb7a8d08ae43a9648166c7beeca, type: 3}
@@ -549,6 +554,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 26777883150720711, guid: b616c3a14fb53bf48abdd5864ec59329, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3060651963376564365, guid: b616c3a14fb53bf48abdd5864ec59329, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -643,7 +652,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6820314770759742372, guid: b616c3a14fb53bf48abdd5864ec59329, type: 3}
       propertyPath: m_Color.a
-      value: 0.93333334
+      value: 0.19215687
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2353,6 +2362,9 @@ MonoBehaviour:
   zoomSpeed: 22
   minZoom: 5
   maxZoom: 15
+  obstructionMask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!4 &965089107 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2862807068714679641, guid: d429c8a2280208c43ace747d82fa1864, type: 3}
@@ -2835,6 +2847,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 668735768885291391, guid: 91ad7bf144749b04ab484a680630a040, type: 3}
   m_PrefabInstance: {fileID: 1197830742}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1253158820 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 1523411674425557546, guid: 888f68dd5a0634d47a68de05f81be50f, type: 3}
+  m_PrefabInstance: {fileID: 7393901482674933457}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1279445821
 PrefabInstance:
@@ -4805,6 +4822,14 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6647147399235525112, guid: 38e40edf2ae5db6429cd0f842a0f8c5b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7127105493316233757, guid: 38e40edf2ae5db6429cd0f842a0f8c5b, type: 3}
+      propertyPath: pickupEffect
+      value: 
+      objectReference: {fileID: 163734831}
     - target: {fileID: 7805637519910187538, guid: 38e40edf2ae5db6429cd0f842a0f8c5b, type: 3}
       propertyPath: m_Name
       value: Gem
@@ -5003,6 +5028,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6240959260738417740, guid: 888f68dd5a0634d47a68de05f81be50f, type: 3}
+      propertyPath: deathEffect
+      value: 
+      objectReference: {fileID: 1253158820}
     - target: {fileID: 7988962818290967867, guid: 888f68dd5a0634d47a68de05f81be50f, type: 3}
       propertyPath: m_Name
       value: BallRoot
