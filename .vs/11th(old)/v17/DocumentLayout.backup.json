@@ -3,48 +3,48 @@
   "WorkspaceRootPath": "D:\\Unity\\Projects\\11th(old)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\11th(old)\\assets\\scripts\\ballcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ballcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|d:\\unity\\projects\\11th(old)\\assets\\scripts\\gem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\11th(old)\\assets\\scripts\\buttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\11th(old)\\assets\\scripts\\levelexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\11th(old)\\assets\\scripts\\buttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\11th(old)\\assets\\scripts\\delayedanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\delayedanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\11th(old)\\assets\\scripts\\trap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\11th(old)\\assets\\scripts\\gem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\11th(old)\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\11th(old)\\assets\\scripts\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\11th(old)\\assets\\scripts\\trap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\11th(old)\\assets\\scripts\\pausecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\11th(old)\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\11th(old)\\assets\\scripts\\ballcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ballcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\11th(old)\\assets\\scripts\\animationrandomizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animationrandomizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\11th(old)\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\11th(old)\\assets\\scripts\\pausecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\11th(old)\\assets\\scripts\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\11th(old)\\assets\\scripts\\delayedanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\delayedanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1221CDA-49BA-9F87-DEDE-B5D940F1DEF8}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\11th(old)\\assets\\scripts\\doorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -68,25 +68,27 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\DoorController.cs",
               "ToolTip": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\DoorController.cs",
               "RelativeToolTip": "Assets\\Scripts\\DoorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T16:56:59.847Z"
+              "WhenOpened": "2024-11-11T16:56:59.847Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ButtonController.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\ButtonController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonController.cs",
               "ToolTip": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\ButtonController.cs",
               "RelativeToolTip": "Assets\\Scripts\\ButtonController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T12:28:40.891Z"
+              "WhenOpened": "2024-11-08T12:28:40.891Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "LevelExit.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\LevelExit.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LevelExit.cs",
@@ -94,48 +96,51 @@
               "RelativeToolTip": "Assets\\Scripts\\LevelExit.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T06:21:57.909Z"
+              "WhenOpened": "2024-11-08T06:21:57.909Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Gem.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\Gem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Gem.cs",
               "ToolTip": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\Gem.cs",
               "RelativeToolTip": "Assets\\Scripts\\Gem.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA4AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T11:43:03.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAwwAsAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowEkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T11:13:41.791Z"
+              "WhenOpened": "2024-11-06T11:13:41.791Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Trap.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\Trap.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Trap.cs",
               "ToolTip": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\Trap.cs",
               "RelativeToolTip": "Assets\\Scripts\\Trap.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T11:07:17.767Z"
+              "WhenOpened": "2024-11-06T11:07:17.767Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "CameraController.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraController.cs",
@@ -143,24 +148,25 @@
               "RelativeToolTip": "Assets\\Scripts\\CameraController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T10:28:43.504Z"
+              "WhenOpened": "2024-11-06T10:28:43.504Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "BallController.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\BallController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BallController.cs",
               "ToolTip": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\BallController.cs",
               "RelativeToolTip": "Assets\\Scripts\\BallController.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAowJAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAswKsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-31T16:51:21.618Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "AnimationRandomizer.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\AnimationRandomizer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AnimationRandomizer.cs",
@@ -168,11 +174,12 @@
               "RelativeToolTip": "Assets\\Scripts\\AnimationRandomizer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T07:42:56.283Z"
+              "WhenOpened": "2024-10-31T07:42:56.283Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "DelayedAnimation.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\DelayedAnimation.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DelayedAnimation.cs",
@@ -180,7 +187,8 @@
               "RelativeToolTip": "Assets\\Scripts\\DelayedAnimation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T11:30:06.865Z"
+              "WhenOpened": "2024-10-30T11:30:06.865Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -192,11 +200,12 @@
               "RelativeToolTip": "Assets\\Scripts\\PauseController.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAcwDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T10:44:04.567Z"
+              "WhenOpened": "2024-10-29T10:44:04.567Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "MainMenuController.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\11th(old)\\Assets\\Scripts\\MainMenuController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenuController.cs",
@@ -204,7 +213,8 @@
               "RelativeToolTip": "Assets\\Scripts\\MainMenuController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T09:44:02.275Z"
+              "WhenOpened": "2024-10-29T09:44:02.275Z",
+              "EditorCaption": ""
             }
           ]
         }

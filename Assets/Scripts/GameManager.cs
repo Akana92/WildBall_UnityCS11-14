@@ -10,6 +10,10 @@ public class GameManager : MonoBehaviour
     public GameObject pausePanel;
     public GameObject gameOverPanel;
     public GameObject levelCompletePanel;
+    public GameObject gameWonPanel; // Новая панель для победы в игре
+
+    // Эффект завершения уровня
+    public ParticleSystem levelCompleteEffect;
 
     private bool isPaused = false;
 
@@ -33,6 +37,14 @@ public class GameManager : MonoBehaviour
             gameOverPanel.SetActive(false);
         if (levelCompletePanel != null)
             levelCompletePanel.SetActive(false);
+        if (gameWonPanel != null)
+            gameWonPanel.SetActive(false);
+
+        // Убеждаемся, что эффект завершения уровня отключен при старте
+        if (levelCompleteEffect != null)
+        {
+            levelCompleteEffect.Stop();
+        }
     }
 
     void Update()
@@ -72,10 +84,6 @@ public class GameManager : MonoBehaviour
     // Метод вызывается при проигрыше
     public void GameOver()
     {
-        //// Останавливаем время
-        //Time.timeScale = 0f;
-        //isPaused = true;
-
         // Показываем панель "Вы проиграли"
         if (gameOverPanel != null)
         {
@@ -87,13 +95,33 @@ public class GameManager : MonoBehaviour
     public void LevelComplete()
     {
         // Останавливаем время
-        Time.timeScale = 0f;
+        //Time.timeScale = 0f;
         isPaused = true;
 
-        // Показываем панель "Уровень пройден"
-        if (levelCompletePanel != null)
+        // Воспроизводим эффект завершения уровня
+        if (levelCompleteEffect != null)
         {
-            levelCompletePanel.SetActive(true);
+            levelCompleteEffect.Play();
+        }
+
+        // Проверяем, является ли текущая сцена последней
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+
+        if (currentSceneIndex == 6) // Замените 5 на индекс вашей последней сцены
+        {
+            // Это последний уровень, показываем панель победы
+            if (gameWonPanel != null)
+            {
+                gameWonPanel.SetActive(true);
+            }
+        }
+        else
+        {
+            // Не последний уровень, показываем панель завершения уровня
+            if (levelCompletePanel != null)
+            {
+                levelCompletePanel.SetActive(true);
+            }
         }
     }
 
@@ -124,9 +152,19 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            // Если это последний уровень, можно перейти в главное меню или показать сообщение
-            Debug.Log("Все уровни пройдены!");
+            // Если это последний уровень, перенаправляем на первую игровую сцену
+            LoadFirstLevel();
         }
+    }
+
+    // Метод для загрузки первой игровой сцены
+    public void LoadFirstLevel()
+    {
+        Time.timeScale = 1f; // Возобновляем время
+        isPaused = false;
+
+        // Замените 1 на индекс вашей первой игровой сцены
+        SceneManager.LoadScene(2);
     }
 
     // Метод, вызываемый при нажатии кнопки "Выход в меню"

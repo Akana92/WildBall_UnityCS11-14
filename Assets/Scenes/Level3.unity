@@ -1796,6 +1796,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 391301409608090387, guid: b616c3a14fb53bf48abdd5864ec59329, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3060651963376564365, guid: b616c3a14fb53bf48abdd5864ec59329, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -3349,6 +3353,8 @@ MonoBehaviour:
   offset: {x: 0, y: 5, z: -10}
   smoothSpeed: 0.125
   rotationSpeed: 22
+  minPitch: -30
+  maxPitch: 60
   zoomSpeed: 22
   minZoom: 1.5
   maxZoom: 15
@@ -6968,16 +6974,24 @@ PrefabInstance:
       value: LevelExit
       objectReference: {fileID: 0}
     - target: {fileID: 4494692815465400575, guid: 1be387eb11753f14a86db24d4e03b324, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.29653114
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494692815465400575, guid: 1be387eb11753f14a86db24d4e03b324, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.65738
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494692815465400575, guid: 1be387eb11753f14a86db24d4e03b324, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.5
+      value: 3.54
       objectReference: {fileID: 0}
     - target: {fileID: 4494692815465400575, guid: 1be387eb11753f14a86db24d4e03b324, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.252388
+      value: 1.35
       objectReference: {fileID: 0}
     - target: {fileID: 4494692815465400575, guid: 1be387eb11753f14a86db24d4e03b324, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 22.63138
+      value: 23.96
       objectReference: {fileID: 0}
     - target: {fileID: 4494692815465400575, guid: 1be387eb11753f14a86db24d4e03b324, type: 3}
       propertyPath: m_LocalRotation.w

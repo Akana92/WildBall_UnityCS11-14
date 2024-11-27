@@ -7,7 +7,11 @@ public class CameraController : MonoBehaviour
     public float smoothSpeed = 0.125f; // —корость сглаживани€ перемещени€ камеры
 
     public float rotationSpeed = 5f; // —корость вращени€ камеры
-    private float currentYaw = 0f; // “екущий угол поворота по оси Y
+    private float currentYaw = 0f; // “екущий угол поворота по оси Y (горизонталь)
+    private float currentPitch = 20f; // “екущий угол поворота по оси X (вертикаль)
+
+    public float minPitch = -30f; // ћинимальный угол поворота по оси X
+    public float maxPitch = 60f; // ћаксимальный угол поворота по оси X
 
     public float zoomSpeed = 2f; // —корость зума
     public float minZoom = 5f; // ћинимальное рассто€ние камеры до цели
@@ -20,6 +24,11 @@ public class CameraController : MonoBehaviour
     {
         // ”станавливаем текущее рассто€ние камеры на основе начального смещени€
         currentZoom = offset.magnitude;
+
+        // »нициализируем начальные углы поворота на основе начального смещени€
+        Vector3 direction = offset.normalized;
+        currentPitch = Mathf.Asin(direction.y) * Mathf.Rad2Deg;
+        currentYaw = Mathf.Atan2(direction.x, -direction.z) * Mathf.Rad2Deg;
     }
 
     void FixedUpdate()
@@ -36,31 +45,37 @@ public class CameraController : MonoBehaviour
         if (Input.GetMouseButton(1)) // ѕрава€ кнопка мыши удерживаетс€
         {
             float mouseInputX = Input.GetAxis("Mouse X");
+            float mouseInputY = Input.GetAxis("Mouse Y");
+
             currentYaw += mouseInputX * rotationSpeed;
+            currentPitch -= mouseInputY * rotationSpeed; // »нвертируем управление по вертикали, при необходимости можно убрать минус
+
+            // ќграничиваем угол поворота по вертикали
+            currentPitch = Mathf.Clamp(currentPitch, minPitch, maxPitch);
         }
 
         // –ассчитываем желаемую позицию камеры с учЄтом поворота и зума
-        Quaternion rotation = Quaternion.Euler(0, currentYaw, 0);
-        Vector3 desiredPosition = target.position + rotation * (offset.normalized * currentZoom);
+        Quaternion rotation = Quaternion.Euler(currentPitch, currentYaw, 0);
+        Vector3 desiredPosition = target.position + rotation * new Vector3(0, 0, -currentZoom);
 
         // ѕровер€ем наличие преп€тствий между целью и желаемой позицией камеры
         RaycastHit hit;
-        Vector3 direction = desiredPosition - target.position;
+        Vector3 directionToCamera = desiredPosition - target.position;
         float distance = currentZoom;
 
-        if (Physics.Raycast(target.position, direction.normalized, out hit, currentZoom, obstructionMask))
+        if (Physics.Raycast(target.position, directionToCamera.normalized, out hit, currentZoom, obstructionMask))
         {
             // ≈сли обнаружено преп€тствие, корректируем позицию камеры перед преп€тствием
             distance = hit.distance - 0.5f; // ќтступаем немного от преп€тстви€
             distance = Mathf.Clamp(distance, minZoom, maxZoom);
-            desiredPosition = target.position + rotation * (offset.normalized * distance);
+            desiredPosition = target.position + rotation * new Vector3(0, 0, -distance);
         }
 
         // ѕлавное перемещение камеры к желаемой позиции
         Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
         transform.position = smoothedPosition;
 
-        // ”станавливаем поворот камеры
+        // ”станавливаем поворот камеры, чтобы она смотрела на цель
         transform.LookAt(target.position);
     }
 }
